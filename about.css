@@ -1,0 +1,248 @@
+* {
+	margin: 0;
+}
+@font-face {
+    font-family: 'open_sanslight';
+    src: url('../fonts/sans/opensans-light-webfont.woff2') format('woff2'),
+         url('../fonts/sans/opensans-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'open_sanssemibold';
+    src: url('../fonts/sans/opensans-semibold-webfont.woff2') format('woff2'),
+         url('../fonts/sans/opensans-semibold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'open_sansregular';
+    src: url('../fonts/sans/opensans-regular-webfont.woff2') format('woff2'),
+         url('../fonts/sans/opensans-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+body {
+	font-family: 'open_sansregular';
+}
+#home {
+	background-color: orange;
+	height: 50vh;
+}
+header h1.left img {
+	display: inline;
+	border-radius: 50%;
+}
+a img {
+	display: inline;
+	width:10%; 
+	position: relative;
+	z-index: 1; 
+}
+ul {
+	list-style: none;
+	display: inline;
+}
+nav.right {
+	position: relative;
+	top: -90px;
+	display: flex;
+	flex-direction: row;
+	padding-left: 900px;
+}
+#spotlight{
+	background-color: orange;
+	margin: 0 auto;
+	text-align: center;
+	height: 50vh;
+}
+#spotlight h1 {
+	font-size: 70px;
+	padding-bottom: 20px;
+}
+button {
+	border:10px solid blue;
+}
+.top h3 {
+	padding-top:30px; 
+	text-align: center;
+	font-size: 35px;
+}
+ul li {
+	display: flex;
+	flex-direction: row;
+} 
+li {
+	display: inline;
+}
+#middle  {
+	background-color: green;
+}
+div.box1 img {
+	padding-top: 50px;
+	width: 5%;
+	padding-left: 150px;
+}
+ul.left li {
+	padding-left: 150px;
+	font-size: 30px;
+	border-right:1px solid #fff; 
+
+}
+.button {
+	text-align: center;
+
+}
+div.box2 a img {
+	width: 10%;
+	padding-left: 150px;
+	padding-bottom: 10px;
+
+}
+ul.right li {
+	padding-left: 150px;
+	font-size: 30px;
+	padding-bottom: 10px;
+}
+div.box2 {
+	padding-left: 400px;
+	position: relative;
+	top: -80px;
+	z-index: 2;
+}
+.contentbg {
+	background-color: orange;
+}
+h3 {
+	font-size: 35px;
+}
+div.left h3 {
+	 padding-top: 30px;
+	 text-align: center;
+}
+div.left p{
+	padding-left: 650px;
+	position: relative;
+	top: -120px;
+} 
+p {font-size: 20px;
+}
+div.left img {
+	padding-left: 30px;
+	position: relative;
+	bottom: -20px;
+}
+.leftcontent h3 {
+	padding-top: 30px;
+	text-align: center;
+	padding-bottom: 30px;
+}
+.right img {
+	position: relative;
+	padding-left:1000px;
+}
+.leftcontent p {
+	position: relative;
+	bottom: -100px;
+	padding-left: 30px;
+}
+#contact {
+	height: 30vh;
+	display: flex;
+	width: 100%;
+}
+div.item {
+	width: 100%;
+	padding-left: 30px;
+	padding-top: 80px;
+	background-color: gray;
+}
+.bold {
+	font-weight: bold;
+}
+#bottom {
+	background-color: #090;
+	padding-top: 20px;
+}
+#bottom .one  { padding-left: 30px;
+	padding-top: 5px;
+	position: relative;
+}
+#bottom .two {
+	padding-left: 1110px;
+	position: relative;
+	top: -20px; 
+}
+#bg {
+	height: 600px;
+	background-image: url(images/html.png);
+	background-size: cover;
+	background-color: rgb(100,0,0);
+}
+#about .bag h3 {
+	padding-left: 80px;
+	padding-top: 50px;
+	position: relative;
+	z-index: 1;
+}
+
+#about .bag p {
+	border-right: 10px solid #fff;
+	padding-top: 60px;
+	padding-left: 40px;
+	position: relative;
+	z-index: 1;
+}
+#about .bag .second {
+	padding-left: 600px;
+	position: relative;
+	top: -190px;
+	z-index: 2; 
+	margin: 0 auto;
+}
+#about .bag .text {
+	padding-left: 506px;
+	position: relative;
+	top: -190px;
+	z-index: 2;
+	margin: 0 auto;
+}
+#about .bag .third {
+	padding-left: 1100px;
+	position: relative;
+	top: -450px;
+}
+#about .bag .lorem {
+	padding-left: 900px;
+	position: relative;
+	top: -450px;
+}
+
+#about .bag span .all {
+	position: relative;
+	top: -500px;
+	z-index: 5;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

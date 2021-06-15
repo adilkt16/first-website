@@ -1,0 +1,85 @@
+section#home
+   Section.wrapper
+     Header
+        H1.left
+            a  > img 
+        nav.right
+            ul 
+              li * 3 > a
+
+section#spotlight
+    H1    
+      P
+       a.button
+
+section#about
+    div.widget       
+       span.round 
+            small
+            h3  
+            P
+    div.widget.middle 
+       span.round
+            small
+            h3
+            P
+    div.widget       
+       span.round 
+            small
+            h3  
+            P
+
+section#middle
+   Section.wrapper
+      div.top
+          h3
+          ul
+            li*2
+              a > img
+          h2  > a
+               P
+               a.button
+       
+section#main
+   section.content.bg
+     section.wrapper
+        div.left
+          img
+        div.right
+          h3
+          P
+
+section#main
+  section.content
+  section.wrapper
+    div.left
+        H3 
+         P
+    div.right
+        img
+
+section#main
+   section.content.bg
+    section.wrapper
+      div.left
+        img
+      div.right
+        h3
+         P
+
+footer
+   section#contact
+     div.item
+      span.icon
+          a
+     div.item
+      span.icon
+          p
+     div.item
+      span.icon
+          a
+
+section.bottom
+    p.left
+    p.right
+      a
